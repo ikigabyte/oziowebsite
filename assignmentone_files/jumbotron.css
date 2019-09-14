@@ -1,0 +1,115 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+
+body {
+    padding-top: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ed1e79;
+    
+}
+
+
+b,strong {
+    font-weight: 600;
+    
+}
+
+
+.jumbotron{
+    background:none;
+}
+.hero-section{
+    background-image:url('../images/ozio_office_bw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    color: white;
+    
+}
+
+.textpink{
+    color: #ed1e79;
+}
+
+
+.header {
+    font-size: 8.5rem;
+    text-align: center;
+}
+
+
+    
+main{
+    background-color: #ed1e79;
+    
+}
+
+.sub{
+    text-align:center;
+    color: white;
+}
+
+
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.listgroup{
+    
+    display: block;
+    list-style-type: disc;
+    list-style-position: inside;
+    position: relative;
+    margin-top: 40px;
+    left: -15px;
+  
+}
+
+
+.btn-secondary{
+    background-color : #ed1e79;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.btn-secondary:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+    
+    
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+}
+
+
+.lastozio{
+    font-weight: 600;
+}
+  
+.btn-sm{
+    
+    background-color: #696969;
+    border: 3px solid #696969;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
