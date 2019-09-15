@@ -1,8 +1,10 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 
+
 .nav-link{
    
-    font-weight: bold;
+    font-weight: bolder;
+
 }
 
 body {
@@ -14,8 +16,7 @@ body {
 
 
 b,strong {
-    font-weight: 600;
-    
+    font-weight: 800;
 }
 
 
@@ -28,16 +29,23 @@ b,strong {
     background-repeat: no-repeat;
     background-position: 80%;
     color: white;
+    padding-bottom: 150px;
     
 }
 
 .textpink{
     color: #ed1e79;
+ 
+}
+
+.dot{
+      color: #ed1e79;
+    font-size: 4.5rem;
 }
 
 
 .header {
-    font-size: 8.5rem;
+    font-size: 7.5rem;
     text-align: center;
 }
 
@@ -59,10 +67,11 @@ main{
 h2{
     text-align: center;
     color: white;
-    font-size: 250%;
+    font-size: 3.5rem;
 }
 p{
     color: white;
+    font-size: 1.5rem;
     text-align: center;
 }
 .listgroup{
@@ -73,7 +82,7 @@ p{
     position: relative;
     margin-top: 40px;
     left: -15px;
-  
+     
 }
 
 
@@ -81,21 +90,27 @@ p{
     background-color : #ed1e79;
     border: 2px solid white;
     border-radius: 12px;
+    margin-top: -30px;
 }
 
 .btn-secondary:hover{
     background-color: white;
     color: black;
     border-color: white;
-    
-    
+}
+.passion{
+    margin-top: 50px;
 }
 
+.row{
+    margin-top: 40px;
+}
 h3{
     text-align: center;
     color: white;
     font-size: 1.4rem;
 }
+
 
 
 .lastozio{
@@ -106,14 +121,22 @@ h3{
     
     background-color: #696969;
     border: 3px solid #696969;
+    border-left-width: 15px;
+    border-right-width: 15px;
     border-radius: 10px;
     color: white;
     font-weight: 600;
 }
 
 
-.footer{
+.footer p{
     text-align: center;
+
+    font-size: 0.7rem;
+
+}
+
     color: white;
     font-weight: 600;
 }
+
