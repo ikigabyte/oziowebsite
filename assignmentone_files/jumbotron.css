@@ -2,7 +2,6 @@
 
 
 .nav-link{
-   
     font-weight: bolder;
 
 }
@@ -16,13 +15,14 @@ body {
 
 
 b,strong {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 
 .jumbotron{
     background:none;
 }
+
 .hero-section{
     background-image:url('../images/ozio_office_bw.jpg');
     background-size: cover;
@@ -60,9 +60,6 @@ main{
     text-align:center;
     color: white;
 }
-
-
-
 
 h2{
     text-align: center;
@@ -105,6 +102,7 @@ p{
 .row{
     margin-top: 40px;
 }
+
 h3{
     text-align: center;
     color: white;
@@ -112,9 +110,8 @@ h3{
 }
 
 
-
 .lastozio{
-    font-weight: 600;
+    font-weight: 900;
 }
   
 .btn-sm{
@@ -131,12 +128,6 @@ h3{
 
 .footer p{
     text-align: center;
-
     font-size: 0.7rem;
-
-}
-
-    color: white;
-    font-weight: 600;
 }
 
